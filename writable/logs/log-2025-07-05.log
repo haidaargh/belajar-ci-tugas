@@ -1,0 +1,524 @@
+INFO - 2025-07-05 11:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:23:02 --> Cart Class Initialized
+WARNING - 2025-07-05 11:23:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:23:38 --> Cart Class Initialized
+WARNING - 2025-07-05 11:23:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:24:10 --> Cart Class Initialized
+WARNING - 2025-07-05 11:24:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:25:33 --> Cart Class Initialized
+WARNING - 2025-07-05 11:25:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-05 11:25:34 --> ErrorException: Undefined array key "nama"
+in APPPATH\Views\v_kategori.php on line 39.
+ 1 APPPATH\Views\v_kategori.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\xampp\\htdocs\\tempat\\belajar-ci\\app\\Views\\v_kategori.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tempat\\belajar-ci\\app\\Views\\v_kategori.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_kategori', [], true)
+ 5 APPPATH\Controllers\ProductCategoryController.php(20): view('v_kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductCategoryController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-05 11:25:37 --> ErrorException: Undefined array key "nama"
+in APPPATH\Views\v_kategori.php on line 39.
+ 1 APPPATH\Views\v_kategori.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\xampp\\htdocs\\tempat\\belajar-ci\\app\\Views\\v_kategori.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tempat\\belajar-ci\\app\\Views\\v_kategori.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_kategori', [], true)
+ 5 APPPATH\Controllers\ProductCategoryController.php(20): view('v_kategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductCategoryController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:26:13 --> Cart Class Initialized
+WARNING - 2025-07-05 11:26:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:28:47 --> Cart Class Initialized
+WARNING - 2025-07-05 11:28:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:29:38 --> Cart Class Initialized
+WARNING - 2025-07-05 11:29:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:29:45 --> Cart Class Initialized
+WARNING - 2025-07-05 11:29:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:29:47 --> Cart Class Initialized
+WARNING - 2025-07-05 11:29:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:30:01 --> Cart Class Initialized
+WARNING - 2025-07-05 11:30:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:30:02 --> Cart Class Initialized
+WARNING - 2025-07-05 11:30:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:35:54 --> Cart Class Initialized
+WARNING - 2025-07-05 11:35:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+CRITICAL - 2025-07-05 11:35:55 --> GuzzleHttp\Exception\ClientException: Client error: `GET https://rajaongkir.komerce.id/api/v1/destination/domestic-destination?search=samp&limit=50` resulted in a `404 Not Found` response:
+{"meta":{"message":"Domestic Destinations Data not found","code":404,"status":"error"},"data":null}
+
+in VENDORPATH\guzzlehttp\guzzle\src\Exception\RequestException.php on line 111.
+ 1 VENDORPATH\guzzlehttp\guzzle\src\Middleware.php(72): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), null, [], null)
+ 2 VENDORPATH\guzzlehttp\promises\src\Promise.php(209): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+ 3 VENDORPATH\guzzlehttp\promises\src\Promise.php(158): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), null)
+ 4 VENDORPATH\guzzlehttp\promises\src\TaskQueue.php(52): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+ 5 VENDORPATH\guzzlehttp\promises\src\Promise.php(251): GuzzleHttp\Promise\TaskQueue->run(true)
+ 6 VENDORPATH\guzzlehttp\promises\src\Promise.php(227): GuzzleHttp\Promise\Promise->invokeWaitFn()
+ 7 VENDORPATH\guzzlehttp\promises\src\Promise.php(272): GuzzleHttp\Promise\Promise->waitIfPending()
+ 8 VENDORPATH\guzzlehttp\promises\src\Promise.php(229): GuzzleHttp\Promise\Promise->invokeWaitList()
+ 9 VENDORPATH\guzzlehttp\promises\src\Promise.php(69): GuzzleHttp\Promise\Promise->waitIfPending()
+10 VENDORPATH\guzzlehttp\guzzle\src\Client.php(189): GuzzleHttp\Promise\Promise->wait()
+11 APPPATH\Controllers\TransaksiController.php(95): GuzzleHttp\Client->request('GET', 'https://rajaongkir.komerce.id/api/v1/destination/domestic-destination?search=samp&limit=50', [...])
+12 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TransaksiController->getLocation()
+13 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+14 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:37:50 --> Cart Class Initialized
+WARNING - 2025-07-05 11:37:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:38:00 --> Cart Class Initialized
+WARNING - 2025-07-05 11:38:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:38:02 --> Cart Class Initialized
+WARNING - 2025-07-05 11:38:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:38:15 --> Cart Class Initialized
+WARNING - 2025-07-05 11:38:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:38:25 --> Cart Class Initialized
+WARNING - 2025-07-05 11:38:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:38:38 --> Cart Class Initialized
+WARNING - 2025-07-05 11:38:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:38:41 --> Cart Class Initialized
+WARNING - 2025-07-05 11:38:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:38:56 --> Cart Class Initialized
+WARNING - 2025-07-05 11:38:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:41:56 --> Cart Class Initialized
+WARNING - 2025-07-05 11:41:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:42:03 --> Cart Class Initialized
+WARNING - 2025-07-05 11:42:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:42:05 --> Cart Class Initialized
+WARNING - 2025-07-05 11:42:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:42:16 --> Cart Class Initialized
+WARNING - 2025-07-05 11:42:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:42:20 --> Cart Class Initialized
+WARNING - 2025-07-05 11:42:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:42:30 --> Cart Class Initialized
+WARNING - 2025-07-05 11:42:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:42:32 --> Cart Class Initialized
+WARNING - 2025-07-05 11:42:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:42:51 --> Cart Class Initialized
+WARNING - 2025-07-05 11:42:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:43:29 --> Cart Class Initialized
+WARNING - 2025-07-05 11:43:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:50:48 --> Cart Class Initialized
+WARNING - 2025-07-05 11:50:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:50:53 --> Cart Class Initialized
+WARNING - 2025-07-05 11:50:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:50:55 --> Cart Class Initialized
+WARNING - 2025-07-05 11:50:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 11:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 11:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:08:08 --> Cart Class Initialized
+WARNING - 2025-07-05 12:08:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 12:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:08:10 --> Cart Class Initialized
+WARNING - 2025-07-05 12:08:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 12:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:08:11 --> Cart Class Initialized
+WARNING - 2025-07-05 12:08:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 12:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:08:11 --> Cart Class Initialized
+WARNING - 2025-07-05 12:08:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 12:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:08:14 --> Cart Class Initialized
+WARNING - 2025-07-05 12:08:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 12:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:08:16 --> Cart Class Initialized
+WARNING - 2025-07-05 12:08:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 12:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:08:24 --> Cart Class Initialized
+WARNING - 2025-07-05 12:08:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 12:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:08:33 --> Cart Class Initialized
+WARNING - 2025-07-05 12:08:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 12:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:08:34 --> Cart Class Initialized
+WARNING - 2025-07-05 12:08:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 12:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:08:43 --> Cart Class Initialized
+WARNING - 2025-07-05 12:08:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 12:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:08:46 --> Cart Class Initialized
+WARNING - 2025-07-05 12:08:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 12:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:18:45 --> Cart Class Initialized
+WARNING - 2025-07-05 12:18:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 12:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:18:47 --> Cart Class Initialized
+WARNING - 2025-07-05 12:18:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 12:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:18:53 --> Cart Class Initialized
+WARNING - 2025-07-05 12:18:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 12:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:19:00 --> Cart Class Initialized
+WARNING - 2025-07-05 12:19:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 12:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:19:02 --> Cart Class Initialized
+WARNING - 2025-07-05 12:19:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 12:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:19:07 --> Cart Class Initialized
+WARNING - 2025-07-05 12:19:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tempat\\belajar-ci\\public\\index.php')
+INFO - 2025-07-05 12:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 12:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

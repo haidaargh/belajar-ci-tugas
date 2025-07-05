@@ -1,0 +1,143 @@
+INFO - 2025-06-18 05:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 05:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 05:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 05:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 05:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 05:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 05:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 05:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 05:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 05:50:49 --> Cart Class Initialized
+WARNING - 2025-06-18 05:50:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-18 05:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 05:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 05:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 06:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-18 06:11:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$transacticon is deprecated in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-18 06:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-18 06:11:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$transacticon is deprecated in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-18 06:11:23 --> Error: Call to a member function where() on null
+in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->profile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-18 06:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-18 06:14:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$transacticon is deprecated in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-18 06:14:20 --> Error: Call to a member function where() on null
+in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->profile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-18 06:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-18 06:14:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$transacticon is deprecated in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-18 06:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-18 06:14:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$transacticon is deprecated in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-18 06:14:25 --> Error: Call to a member function where() on null
+in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->profile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-18 06:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 06:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 06:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 06:47:22 --> Cart Class Initialized
+WARNING - 2025-06-18 06:47:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-18 06:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-18 06:48:19 --> ErrorException: Undefined property: App\Controllers\ApiController::$apiKey
+in APPPATH\Controllers\ApiController.php on line 41.
+ 1 APPPATH\Controllers\ApiController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ApiController::$apiKey', 'C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\app\\Controllers\\ApiController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ApiController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-18 06:49:07 --> ErrorException: Undefined property: App\Controllers\ApiController::$apiKey
+in APPPATH\Controllers\ApiController.php on line 41.
+ 1 APPPATH\Controllers\ApiController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ApiController::$apiKey', 'C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\app\\Controllers\\ApiController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ApiController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-18 06:49:07 --> ErrorException: Undefined property: App\Controllers\ApiController::$apiKey
+in APPPATH\Controllers\ApiController.php on line 41.
+ 1 APPPATH\Controllers\ApiController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ApiController::$apiKey', 'C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\app\\Controllers\\ApiController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ApiController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-18 06:49:11 --> ErrorException: Undefined property: App\Controllers\ApiController::$apiKey
+in APPPATH\Controllers\ApiController.php on line 41.
+ 1 APPPATH\Controllers\ApiController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ApiController::$apiKey', 'C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\app\\Controllers\\ApiController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ApiController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-18 06:49:11 --> ErrorException: Undefined property: App\Controllers\ApiController::$apiKey
+in APPPATH\Controllers\ApiController.php on line 41.
+ 1 APPPATH\Controllers\ApiController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ApiController::$apiKey', 'C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\app\\Controllers\\ApiController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ApiController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-18 06:51:14 --> ErrorException: Undefined property: App\Controllers\ApiController::$apiKey
+in APPPATH\Controllers\ApiController.php on line 41.
+ 1 APPPATH\Controllers\ApiController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ApiController::$apiKey', 'C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\app\\Controllers\\ApiController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ApiController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-18 06:51:16 --> ErrorException: Undefined property: App\Controllers\ApiController::$apiKey
+in APPPATH\Controllers\ApiController.php on line 41.
+ 1 APPPATH\Controllers\ApiController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ApiController::$apiKey', 'C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\app\\Controllers\\ApiController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ApiController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-18 07:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

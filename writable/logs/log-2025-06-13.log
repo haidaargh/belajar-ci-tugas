@@ -1,0 +1,883 @@
+INFO - 2025-06-13 10:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 10:39:04 --> Dompdf\Exception: Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_6FF9.tmp.  Please install the image PHP extension.
+in VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php on line 608.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_6FF9.tmp', 'webp')
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_6FF9.tmp', 508.38941508151606, 126.19374803149606, 37.5, 37.5, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+ 7 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+ 8 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+ 9 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+10 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+11 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(null)
+12 VENDORPATH\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+13 APPPATH\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+14 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+15 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+16 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-13 10:39:14 --> ErrorException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 262148096 bytes)
+【Previous Exception】
+Dompdf\Exception
+Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_6FF9.tmp.  Please install the image PHP extension.
+#0 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\A...', 'webp')
+#1 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\A...', 508.38941508152, 126.1937480315, 37.5, 37.5, 'normal')
+#2 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+#6 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+#7 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+#8 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+#9 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#10 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 C:\xampp\htdocs\baru\belajar-ci-tugas\app\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+#13 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+#14 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#15 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\baru\belajar-ci-tugas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 125.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-06-13 10:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 10:47:33 --> Dompdf\Exception: Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_32DA.tmp.  Please install the image PHP extension.
+in VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php on line 608.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_32DA.tmp', 'webp')
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_32DA.tmp', 508.38941508151606, 126.19374803149606, 37.5, 37.5, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+ 7 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+ 8 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+ 9 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+10 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+11 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(null)
+12 VENDORPATH\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+13 APPPATH\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+14 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+15 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+16 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-13 10:47:42 --> ErrorException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 262148096 bytes)
+【Previous Exception】
+Dompdf\Exception
+Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_32DA.tmp.  Please install the image PHP extension.
+#0 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\A...', 'webp')
+#1 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\A...', 508.38941508152, 126.1937480315, 37.5, 37.5, 'normal')
+#2 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+#6 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+#7 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+#8 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+#9 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#10 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 C:\xampp\htdocs\baru\belajar-ci-tugas\app\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+#13 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+#14 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#15 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\baru\belajar-ci-tugas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 125.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-06-13 10:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 10:47:42 --> Dompdf\Exception: Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_5568.tmp.  Please install the image PHP extension.
+in VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php on line 608.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_5568.tmp', 'webp')
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_5568.tmp', 508.38941508151606, 126.19374803149606, 37.5, 37.5, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+ 7 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+ 8 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+ 9 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+10 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+11 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(null)
+12 VENDORPATH\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+13 APPPATH\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+14 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+15 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+16 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-13 10:47:50 --> ErrorException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 262148096 bytes)
+【Previous Exception】
+Dompdf\Exception
+Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_5568.tmp.  Please install the image PHP extension.
+#0 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\A...', 'webp')
+#1 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\A...', 508.38941508152, 126.1937480315, 37.5, 37.5, 'normal')
+#2 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+#6 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+#7 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+#8 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+#9 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#10 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 C:\xampp\htdocs\baru\belajar-ci-tugas\app\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+#13 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+#14 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#15 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\baru\belajar-ci-tugas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 125.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-06-13 10:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 10:50:16 --> Dompdf\Exception: Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_AD56.tmp.  Please install the image PHP extension.
+in VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php on line 608.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_AD56.tmp', 'webp')
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_AD56.tmp', 508.38941508151606, 126.19374803149606, 37.5, 37.5, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+ 7 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+ 8 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+ 9 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+10 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+11 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(null)
+12 VENDORPATH\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+13 APPPATH\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+14 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+15 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+16 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-13 10:50:24 --> ErrorException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 262148096 bytes)
+【Previous Exception】
+Dompdf\Exception
+Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_AD56.tmp.  Please install the image PHP extension.
+#0 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\A...', 'webp')
+#1 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\A...', 508.38941508152, 126.1937480315, 37.5, 37.5, 'normal')
+#2 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+#6 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+#7 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+#8 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+#9 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#10 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 C:\xampp\htdocs\baru\belajar-ci-tugas\app\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+#13 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+#14 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#15 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\baru\belajar-ci-tugas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 125.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-06-13 10:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 10:53:37 --> Dompdf\Exception: Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_C1B4.tmp.  Please install the image PHP extension.
+in VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php on line 608.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_C1B4.tmp', 'webp')
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_C1B4.tmp', 508.38941508151606, 126.19374803149606, 37.5, 37.5, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+ 7 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+ 8 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+ 9 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+10 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+11 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(null)
+12 VENDORPATH\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+13 APPPATH\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+14 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+15 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+16 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-13 10:54:14 --> ErrorException: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 530583552 bytes)
+【Previous Exception】
+Dompdf\Exception
+Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_C1B4.tmp.  Please install the image PHP extension.
+#0 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\A...', 'webp')
+#1 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\A...', 508.38941508152, 126.1937480315, 37.5, 37.5, 'normal')
+#2 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+#6 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+#7 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+#8 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+#9 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#10 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 C:\xampp\htdocs\baru\belajar-ci-tugas\app\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+#13 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+#14 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#15 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\baru\belajar-ci-tugas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 125.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-06-13 10:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 10:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 10:57:50 --> Dompdf\Exception: Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_9D5F.tmp.  Please install the image PHP extension.
+in VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php on line 608.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_9D5F.tmp', 'webp')
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_9D5F.tmp', 508.38941508151606, 126.19374803149606, 37.5, 37.5, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+ 7 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+ 8 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+ 9 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+10 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+11 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(null)
+12 VENDORPATH\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+13 APPPATH\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+14 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+15 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+16 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-13 10:58:24 --> ErrorException: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 530583552 bytes)
+【Previous Exception】
+Dompdf\Exception
+Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_9D5F.tmp.  Please install the image PHP extension.
+#0 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\A...', 'webp')
+#1 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\A...', 508.38941508152, 126.1937480315, 37.5, 37.5, 'normal')
+#2 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+#6 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+#7 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+#8 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+#9 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#10 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 C:\xampp\htdocs\baru\belajar-ci-tugas\app\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+#13 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+#14 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#15 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\baru\belajar-ci-tugas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 125.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-06-13 11:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 11:01:22 --> Dompdf\Exception: Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_D70E.tmp.  Please install the image PHP extension.
+in VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php on line 608.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_D70E.tmp', 'webp')
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_D70E.tmp', 508.38941508151606, 126.19374803149606, 37.5, 37.5, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+ 7 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+ 8 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+ 9 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+10 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+11 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(null)
+12 VENDORPATH\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+13 APPPATH\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+14 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+15 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+16 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-13 11:02:00 --> ErrorException: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 530583552 bytes)
+【Previous Exception】
+Dompdf\Exception
+Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_D70E.tmp.  Please install the image PHP extension.
+#0 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\A...', 'webp')
+#1 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\A...', 508.38941508152, 126.1937480315, 37.5, 37.5, 'normal')
+#2 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+#6 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+#7 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+#8 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+#9 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#10 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 C:\xampp\htdocs\baru\belajar-ci-tugas\app\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+#13 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+#14 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#15 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\baru\belajar-ci-tugas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 125.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-06-13 11:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 11:02:02 --> Dompdf\Exception: Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_7296.tmp.  Please install the image PHP extension.
+in VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php on line 608.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_7296.tmp', 'webp')
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_7296.tmp', 508.38941508151606, 126.19374803149606, 37.5, 37.5, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+ 7 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+ 8 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+ 9 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+10 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+11 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(null)
+12 VENDORPATH\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+13 APPPATH\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+14 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+15 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+16 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-13 11:02:40 --> ErrorException: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 530583552 bytes)
+【Previous Exception】
+Dompdf\Exception
+Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_7296.tmp.  Please install the image PHP extension.
+#0 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\A...', 'webp')
+#1 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\A...', 508.38941508152, 126.1937480315, 37.5, 37.5, 'normal')
+#2 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+#6 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+#7 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+#8 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+#9 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#10 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 C:\xampp\htdocs\baru\belajar-ci-tugas\app\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+#13 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+#14 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#15 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\baru\belajar-ci-tugas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 125.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-06-13 11:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 11:04:51 --> Dompdf\Exception: Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_9BF.tmp.  Please install the image PHP extension.
+in VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php on line 608.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_9BF.tmp', 'webp')
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_9BF.tmp', 508.38941508151606, 126.19374803149606, 37.5, 37.5, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+ 7 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+ 8 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+ 9 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+10 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+11 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(null)
+12 VENDORPATH\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+13 APPPATH\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+14 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+15 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+16 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-13 11:05:31 --> ErrorException: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 530583552 bytes)
+【Previous Exception】
+Dompdf\Exception
+Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_9BF.tmp.  Please install the image PHP extension.
+#0 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\A...', 'webp')
+#1 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\A...', 508.38941508152, 126.1937480315, 37.5, 37.5, 'normal')
+#2 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+#6 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+#7 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+#8 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+#9 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#10 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 C:\xampp\htdocs\baru\belajar-ci-tugas\app\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+#13 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+#14 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#15 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\baru\belajar-ci-tugas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 125.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-06-13 11:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 11:25:10 --> Dompdf\Exception: Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_A36A.tmp.  Please install the image PHP extension.
+in VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php on line 608.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_A36A.tmp', 'webp')
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_A36A.tmp', 508.38941508151606, 126.19374803149606, 37.5, 37.5, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+ 7 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+ 8 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+ 9 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+10 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+11 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(null)
+12 VENDORPATH\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+13 APPPATH\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+14 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+15 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+16 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-13 11:25:55 --> ErrorException: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 530583552 bytes)
+【Previous Exception】
+Dompdf\Exception
+Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_A36A.tmp.  Please install the image PHP extension.
+#0 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\A...', 'webp')
+#1 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\A...', 508.38941508152, 126.1937480315, 37.5, 37.5, 'normal')
+#2 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+#6 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+#7 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+#8 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+#9 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#10 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 C:\xampp\htdocs\baru\belajar-ci-tugas\app\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+#13 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+#14 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#15 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\baru\belajar-ci-tugas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 125.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-06-13 11:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 11:25:56 --> Dompdf\Exception: Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_5604.tmp.  Please install the image PHP extension.
+in VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php on line 608.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_5604.tmp', 'webp')
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_5604.tmp', 508.38941508151606, 126.19374803149606, 37.5, 37.5, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+ 7 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+ 8 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+ 9 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+10 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+11 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(null)
+12 VENDORPATH\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+13 APPPATH\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+14 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+15 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+16 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-13 11:27:12 --> ErrorException: CodeIgniter\Events\Events::Config\{closure}(): Cannot use output buffering in output buffering display handlers
+【Previous Exception】
+Dompdf\Exception
+Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_5604.tmp.  Please install the image PHP extension.
+#0 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\A...', 'webp')
+#1 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\A...', 508.38941508152, 126.1937480315, 37.5, 37.5, 'normal')
+#2 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+#6 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+#7 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+#8 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+#9 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#10 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 C:\xampp\htdocs\baru\belajar-ci-tugas\app\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+#13 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+#14 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#15 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\baru\belajar-ci-tugas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+in APPPATH\Config\Events.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-06-13 11:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 11:27:25 --> Dompdf\Exception: Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_B0B5.tmp.  Please install the image PHP extension.
+in VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php on line 608.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_B0B5.tmp', 'webp')
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_B0B5.tmp', 508.38941508151606, 126.19374803149606, 37.5, 37.5, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+ 7 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+ 8 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+ 9 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+10 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+11 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(null)
+12 VENDORPATH\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+13 APPPATH\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+14 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+15 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+16 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-13 11:29:36 --> ErrorException: CodeIgniter\Events\Events::Config\{closure}(): Cannot use output buffering in output buffering display handlers
+【Previous Exception】
+Dompdf\Exception
+Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_B0B5.tmp.  Please install the image PHP extension.
+#0 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\A...', 'webp')
+#1 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\A...', 508.38941508152, 126.1937480315, 37.5, 37.5, 'normal')
+#2 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+#6 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+#7 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+#8 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+#9 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#10 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 C:\xampp\htdocs\baru\belajar-ci-tugas\app\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+#13 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+#14 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#15 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\baru\belajar-ci-tugas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+in APPPATH\Config\Events.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-06-13 11:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 11:30:35 --> Dompdf\Exception: Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_98D9.tmp.  Please install the image PHP extension.
+in VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php on line 608.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_98D9.tmp', 'webp')
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\AppData\\Local\\Temp\\ca_98D9.tmp', 508.38941508151606, 126.19374803149606, 37.5, 37.5, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+ 7 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+ 8 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+ 9 VENDORPATH\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+10 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+11 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(null)
+12 VENDORPATH\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+13 APPPATH\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+14 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+15 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+16 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+CRITICAL - 2025-06-13 11:31:16 --> ErrorException: Allowed memory size of 1073741824 bytes exhausted (tried to allocate 530583552 bytes)
+【Previous Exception】
+Dompdf\Exception
+Function imagecreatefromwebp() not found.  Cannot convert webp image: C:\Users\acer\AppData\Local\Temp\ca_98D9.tmp.  Please install the image PHP extension.
+#0 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Adapter\CPDF.php(662): Dompdf\Adapter\CPDF->_convert_to_png('C:\\Users\\acer\\A...', 'webp')
+#1 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer\Image.php(63): Dompdf\Adapter\CPDF->image('C:\\Users\\acer\\A...', 508.38941508152, 126.1937480315, 37.5, 37.5, 'normal')
+#2 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(305): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(140): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+#6 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+#7 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+#8 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Renderer.php(207): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+#9 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#10 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 C:\xampp\htdocs\baru\belajar-ci-tugas\app\Controllers\ProdukController.php(111): Dompdf\Dompdf->render()
+#13 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\ProdukController->download()
+#14 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdukController))
+#15 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\baru\belajar-ci-tugas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\baru\belajar-ci-tugas\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 125.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-06-13 11:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:50:17 --> Cart Class Initialized
+INFO - 2025-06-13 11:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:50:27 --> Cart Class Initialized
+INFO - 2025-06-13 11:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:50:36 --> Cart Class Initialized
+INFO - 2025-06-13 11:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:50:54 --> Cart Class Initialized
+INFO - 2025-06-13 11:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:50:58 --> Cart Class Initialized
+INFO - 2025-06-13 11:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:51:07 --> Cart Class Initialized
+INFO - 2025-06-13 11:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 11:51:07 --> Cart Class Initialized
+INFO - 2025-06-13 12:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:08:41 --> Cart Class Initialized
+INFO - 2025-06-13 12:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:08:54 --> Cart Class Initialized
+INFO - 2025-06-13 12:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:10:58 --> Cart Class Initialized
+INFO - 2025-06-13 12:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:11:07 --> Cart Class Initialized
+INFO - 2025-06-13 12:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:11:10 --> Cart Class Initialized
+INFO - 2025-06-13 12:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:11:13 --> Cart Class Initialized
+INFO - 2025-06-13 12:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:11:13 --> Cart Class Initialized
+INFO - 2025-06-13 12:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:17:30 --> Cart Class Initialized
+INFO - 2025-06-13 12:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:17:32 --> Cart Class Initialized
+INFO - 2025-06-13 12:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:26:32 --> Cart Class Initialized
+WARNING - 2025-06-13 12:26:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 12:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:28:57 --> Cart Class Initialized
+WARNING - 2025-06-13 12:28:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 12:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:30:38 --> Cart Class Initialized
+WARNING - 2025-06-13 12:30:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 12:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:32:28 --> Cart Class Initialized
+WARNING - 2025-06-13 12:32:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 12:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:35:40 --> Cart Class Initialized
+WARNING - 2025-06-13 12:35:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 12:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:36:43 --> Cart Class Initialized
+WARNING - 2025-06-13 12:36:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 12:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:36:47 --> Cart Class Initialized
+WARNING - 2025-06-13 12:36:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 12:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:38:30 --> Cart Class Initialized
+WARNING - 2025-06-13 12:38:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 12:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:38:33 --> Cart Class Initialized
+WARNING - 2025-06-13 12:38:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 12:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:39:08 --> Cart Class Initialized
+WARNING - 2025-06-13 12:39:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 12:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:39:12 --> Cart Class Initialized
+WARNING - 2025-06-13 12:39:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 12:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:46:38 --> Cart Class Initialized
+WARNING - 2025-06-13 12:46:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 12:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:48:04 --> Cart Class Initialized
+WARNING - 2025-06-13 12:48:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 12:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:50:02 --> Cart Class Initialized
+WARNING - 2025-06-13 12:50:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 12:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:52:57 --> Cart Class Initialized
+WARNING - 2025-06-13 12:52:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 12:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:53:07 --> Cart Class Initialized
+WARNING - 2025-06-13 12:53:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 12:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:53:10 --> Cart Class Initialized
+WARNING - 2025-06-13 12:53:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 12:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:54:05 --> Cart Class Initialized
+WARNING - 2025-06-13 12:54:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 12:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:54:11 --> Cart Class Initialized
+WARNING - 2025-06-13 12:54:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 12:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 12:55:13 --> Cart Class Initialized
+WARNING - 2025-06-13 12:55:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 13:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 13:05:50 --> Cart Class Initialized
+WARNING - 2025-06-13 13:05:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 13:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 13:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 13:16:54 --> Cart Class Initialized
+WARNING - 2025-06-13 13:16:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 13:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 13:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 13:18:17 --> Cart Class Initialized
+WARNING - 2025-06-13 13:18:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$apiKey is deprecated in APPPATH\Controllers\TransaksiController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\baru\\belajar-ci-tugas\\public\\index.php')
+INFO - 2025-06-13 13:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 13:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 13:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-13 13:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
