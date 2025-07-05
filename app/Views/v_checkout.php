@@ -16,11 +16,19 @@
         </div> 
         <div class="col-12">
             <label for="kelurahan" class="form-label">Kelurahan</label>
+<<<<<<< HEAD
             <select class="form-control" id="kelurahan" name="kelurahan" required></select>
         </div>
         <div class="col-12">
             <label for="layanan" class="form-label">Layanan</label>
             <select class="form-control" id="layanan" name="layanan" required></select>
+=======
+            <select class="form-control" name="kelurahan" id="kelurahan" required></select>
+        </div>
+        <div class="col-12">
+            <label for="layanan" class="form-label">Layanan</label>
+            <select class="form-control" name="layanan" id="layanan" required></select>
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
         </div>
         <div class="col-12">
             <label for="ongkir" class="form-label">Ongkir</label>
@@ -77,6 +85,10 @@
     </div>
 </div>
 <?= $this->endSection() ?>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
 <?= $this->section('script') ?>
 <script>
 $(document).ready(function() {
@@ -110,7 +122,11 @@ $(document).ready(function() {
     minimumInputLength: 3
 });
 
+<<<<<<< HEAD
     $("#kelurahan").on('change', function() {
+=======
+$("#kelurahan").on('change', function() {
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
     var id_kelurahan = $(this).val(); 
     $("#layanan").empty();
     ongkir = 0;
@@ -135,7 +151,11 @@ $(document).ready(function() {
     });
 });
 
+<<<<<<< HEAD
     $("#layanan").on('change', function() {
+=======
+$("#layanan").on('change', function() {
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
     ongkir = parseInt($(this).val());
     hitungTotal();
 });  

@@ -88,7 +88,11 @@ class ProdukController extends BaseController
     }
 
     public function download()
+<<<<<<< HEAD
     {
+=======
+{
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
 		//get data from database
     $product = $this->product->findAll();
 
@@ -112,5 +116,9 @@ class ProdukController extends BaseController
 
     // output the generated pdf
     $dompdf->stream($filename);
+<<<<<<< HEAD
     }
+=======
+}
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
 }

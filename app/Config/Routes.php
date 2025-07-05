@@ -35,6 +35,7 @@ $routes->group('keranjang', ['filter' => 'auth'], function ($routes) {
     $routes->get('clear', 'TransaksiController::cart_clear');
 });
 
+<<<<<<< HEAD
 $routes->group('diskon', ['filter' => 'auth'], function($routes) {
     $routes->get('/', 'DiskonController::index');
     $routes->get('create', 'DiskonController::create');
@@ -49,9 +50,21 @@ $routes->post('buy', 'TransaksiController::buy', ['filter' => 'auth']);
 
 $routes->get('get-location', 'TransaksiController::getLocation', ['filter' => 'auth']);
 $routes->get('get-cost', 'TransaksiController::getCost', ['filter' => 'auth']);
+=======
+$routes->get('checkout', 'TransaksiController::checkout', ['filter' => 'auth']);
+$routes->post('buy', 'TransaksiController::buy', ['filter' => 'auth']);
+
+$routes->get('keranjang', 'TransaksiController::index', ['filter' => 'auth']);
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
 
 $routes->get('faq', 'Home::faq', ['filter' => 'auth']);
 $routes->get('profile', 'Home::profile', ['filter' => 'auth']);
 $routes->get('contact', 'Home::contact', ['filter' => 'auth']);
 
+<<<<<<< HEAD
+=======
+$routes->get('get-location', 'TransaksiController::getLocation', ['filter' => 'auth']);
+$routes->get('get-cost', 'TransaksiController::getCost', ['filter' => 'auth']);
+
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
 $routes->resource('api', ['controller' => 'apiController']);

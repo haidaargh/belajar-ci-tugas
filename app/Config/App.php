@@ -109,7 +109,11 @@ class App extends BaseConfig
      * @see https://www.php.net/manual/en/timezones.php for list of timezones
      *      supported by PHP.
      */
+<<<<<<< HEAD
     public string $appTimezone = 'Asia/Jakarta';
+=======
+    public string $appTimezone = 'UTC';
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
 
     /**
      * --------------------------------------------------------------------------

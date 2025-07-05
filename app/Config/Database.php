@@ -27,9 +27,15 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
+<<<<<<< HEAD
         'username'     => '',
         'password'     => '',
         'database'     => '',
+=======
+        'username'     => 'root',
+        'password'     => '',
+        'database'     => 'db_ci4',
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
@@ -68,7 +74,11 @@ class Database extends Config
         'failover'    => [],
         'port'        => 3306,
         'foreignKeys' => true,
+<<<<<<< HEAD
         'busyTimeout' => 1000,
+=======
+        'busyTimeout' => 1000,  
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
     ];
 
     public function __construct()

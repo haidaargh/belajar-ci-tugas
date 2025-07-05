@@ -6,7 +6,10 @@ use App\Controllers\BaseController;
 use CodeIgniter\HTTP\ResponseInterface;
 
 use App\Models\UserModel;
+<<<<<<< HEAD
 use App\Models\DiskonModel;
+=======
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
 
 class AuthController extends BaseController
 {
@@ -40,6 +43,7 @@ class AuthController extends BaseController
                         'isLoggedIn' => TRUE
                     ]);
 
+<<<<<<< HEAD
 // 🔽 Tambahkan bagian ini untuk ambil diskon hari ini
                     $diskonModel = new DiskonModel();
                     $diskonHariIni = $diskonModel->where('tanggal', date('Y-m-d'))->first();
@@ -47,6 +51,8 @@ class AuthController extends BaseController
                         session()->set('diskon_nominal', $diskonHariIni['nominal']);
                     }
 
+=======
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
                     return redirect()->to(base_url('/'));
                 } else {
                     session()->setFlashdata('failed', 'Kombinasi Username & Password Salah');

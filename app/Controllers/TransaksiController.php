@@ -9,7 +9,11 @@ class TransaksiController extends BaseController
 {
     protected $cart;
     protected $client;
+<<<<<<< HEAD
     protected $apikey;
+=======
+    protected $apiKey;
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
     protected $transaction;
     protected $transaction_detail;
 
@@ -33,6 +37,7 @@ class TransaksiController extends BaseController
 
     public function cart_add()
     {
+<<<<<<< HEAD
         $hargaAsli = $this->request->getPost('harga');
         $diskon = session()->get('diskon_nominal') ?? 0;
         $hargaSetelahDiskon = max(0, $hargaAsli - $diskon); // Jangan sampai minus
@@ -47,6 +52,15 @@ class TransaksiController extends BaseController
                 'diskon' => $diskon // simpan untuk referensi
             ]
         ]);
+=======
+        $this->cart->insert(array(
+            'id'        => $this->request->getPost('id'),
+            'qty'       => 1,
+            'price'     => $this->request->getPost('harga'),
+            'name'      => $this->request->getPost('nama'),
+            'options'   => array('foto' => $this->request->getPost('foto'))
+        ));
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
         session()->setflashdata('success', 'Produk berhasil ditambahkan ke keranjang. (<a href="' . base_url() . 'keranjang">Lihat</a>)');
         return redirect()->to(base_url('/'));
     }
@@ -81,6 +95,7 @@ class TransaksiController extends BaseController
 
     public function checkout()
     {
+<<<<<<< HEAD
     $data['items'] = $this->cart->contents();
     $data['total'] = $this->cart->total();
 
@@ -89,6 +104,16 @@ class TransaksiController extends BaseController
 
     public function getLocation()
     {
+=======
+        $data['items'] = $this->cart->contents();
+        $data['total'] = $this->cart->total();
+
+        return view('v_checkout', $data);
+    }
+
+    public function getLocation()
+{
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
 		//keyword pencarian yang dikirimkan dari halaman checkout
     $search = $this->request->getGet('search');
 
@@ -104,10 +129,17 @@ class TransaksiController extends BaseController
 
     $body = json_decode($response->getBody(), true); 
     return $this->response->setJSON($body['data']);
+<<<<<<< HEAD
     }
 
     public function getCost()
     { 
+=======
+}
+
+public function getCost()
+{ 
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
 		//ID lokasi yang dikirimkan dari halaman checkout
     $destination = $this->request->getGet('destination');
 
@@ -143,9 +175,15 @@ class TransaksiController extends BaseController
 
     $body = json_decode($response->getBody(), true); 
     return $this->response->setJSON($body['data']);
+<<<<<<< HEAD
     }
 
     public function buy()
+=======
+}
+
+public function buy()
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
 {
     if ($this->request->getPost()) { 
         $dataForm = [
@@ -167,11 +205,19 @@ class TransaksiController extends BaseController
                 'transaction_id' => $last_insert_id,
                 'product_id' => $value['id'],
                 'jumlah' => $value['qty'],
+<<<<<<< HEAD
                 'diskon' => $value['options']['diskon'] ?? 0,
+=======
+                'diskon' => 0,
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
                 'subtotal_harga' => $value['qty'] * $value['price'],
                 'created_at' => date("Y-m-d H:i:s"),
                 'updated_at' => date("Y-m-d H:i:s")
             ];
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
             $this->transaction_detail->insert($dataFormDetail);
         }
 

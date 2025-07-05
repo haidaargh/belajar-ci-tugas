@@ -16,6 +16,7 @@
         </form>
     </div><!-- End Search Bar -->
 
+<<<<<<< HEAD
     <?php if (session()->has('diskon_nominal')) : ?>
                 <li class="nav-item d-none d-md-block">
                     <div class="nav-link">
@@ -27,6 +28,8 @@
             <?php endif; ?>
             <!-- End diskkon -->
 
+=======
+>>>>>>> 1e71c53ecff91d8ab6e3bc5a53dce6916f7a2869
     <nav class="header-nav ms-auto">
         <ul class="d-flex align-items-center">
 
